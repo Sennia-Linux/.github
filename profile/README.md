@@ -1,15 +1,15 @@
-# Sienna Linux
+# Sennia Linux
 
 A cozy [fedora atomic](https://fedoraproject.org/atomic-desktops/) remix based on [silverblue-nvidia](https://github.com/ublue-os/main/pkgs/container/silverblue-nvidia) by [ublue](https://universal-blue.org/).
 
-![Desktop Screenshot](https://raw.githubusercontent.com/Sienna-Linux/.github/refs/heads/main/profile/preview.png)
+![Desktop Screenshot](https://raw.githubusercontent.com/Sennia-Linux/.github/refs/heads/main/profile/preview.png)
 
 
 ## What is this?
 
 This is my own tweaked [bootable container](https://docs.fedoraproject.org/en-US/bootc/getting-started/) deployment that I maintain for myself. It's mainly focused on 3D graphics, programming and gaming workloads.
 
-If anyone is using this image please reach out with a bug report in the [distro repo](https://github.com/Sienna-Linux/distro) so I don't randomly change things on your computer.
+If anyone is using this image please reach out with a bug report in the [distro repo](https://github.com/Sennia-Linux/distro) so I don't randomly change things on your computer.
 
 ## Changes and Features
 
@@ -56,7 +56,7 @@ If anyone is using this image please reach out with a bug report in the [distro 
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/sienna-linux/distro:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/Sennia-linux/distro:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -64,7 +64,7 @@ If anyone is using this image please reach out with a bug report in the [distro 
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/sienna-linux/distro:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/Sennia-linux/distro:latest
   ```
 - Reboot again to complete the installation
   ```
