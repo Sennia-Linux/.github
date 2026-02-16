@@ -49,6 +49,9 @@ If anyone is using this image please reach out with a bug report so I don't rand
 
 ## Installation
 
+> [!WARNING]
+> Under construction. Image is not up yet. Rebasing won't work.
+
 1. You first need a [Fedora Atomic Desktop](https://fedoraproject.org/atomic-desktops/) installed.
 2. Then you rebase with these commands
 
