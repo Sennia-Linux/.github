@@ -1,3 +1,5 @@
 # Sienna Linux
 
-PolyCat's personal bootc image.
+Cozy Linux for your desktop.
+
+![Desktop Screenshot](https://raw.githubusercontent.com/Satisflux-Laboratories/.github/refs/heads/main/profile/preview.png)
